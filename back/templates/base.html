@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+    <head>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <h3>Home</h3><ul>
+                    <li><a href="/" >home</a></li>
+                </ul><h3>Document</h3><ul>
+                    <li><a href="/doc/" >doc/</a></li>
+                    <li><a href="/doc/create/" >doc/create/</a></li>
+                    <li><a href="/doc/chat/" >doc/chat/</a></li>
+                    <li><a href="/doc/sender/" >doc/sender/</a></li>
+                    <li><a href="/doc/recipient/" >doc/recipient/</a></li>
+                    <li><a href="doc/id/1" >doc/id/int:pk/</a></li>
+                </ul><h3>Document : Admin</h3><ul>
+                    <li><a href="doc/user/" >doc/user/</a></li>
+                    <li><a href="doc/sender/list/" >doc/sender/list/</a></li>
+                    <li><a href="doc/recipient/list/" >doc/recipient/list/</a></li>
+                    <li><a href="doc/main/" >doc/main/</a></li>
+                    <li><a href="doc/sub/" >doc/sub/</a></li>
+                    <li><a href="doc/form/" >doc/form/</a></li>
+                </ul><h3>Board</h3><ul>
+                    <li><a href="board/" >board/</a></li>
+                    <li><a href="board/id/1" >board/id/int:pk/</a></li>
+                    <li><a href="board/user" >board/user/</a></li>
+                </ul><h3>Chat</h3><ul>
+                    <li><a href="chat/classification/" >chat/classification/</a></li>
+                    <li><a href="chat/lawgpt/" >chat/lawgpt/</a></li>
+                </ul><h3>Accounts</h3><ul>
+                    <li><a href="accounts/dj-rest-auth/registration/" >accounts/dj-rest-auth/registration/</a></li>
+                    <li><a href="accounts/dj-rest-auth/login/" >accounts/dj-rest-auth/login/</a></li>
+                    <li><a href="accounts/dj-rest-auth/logout/" >accounts/dj-rest-auth/logout/</a></li>
+                </ul>
+            </nav>
+        </header>
+{% block content %}{% endblock %}
+        <footer>
+            <p>AIVLE AI 7반 25조</p>
+            <p>Copyright© 2023. All rights reserved.</p></footer>
+    </body>
+</html>
